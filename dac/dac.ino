@@ -2,9 +2,9 @@
 #include <Adafruit_MCP4725.h>
 
 int potPort = A0;
-int outLow = 1600; // min output to account for boatmode
-int outHigh1 = 3100; // max output for mode 1
-int outHigh2 = 3500; // max output for mode 2
+int outLow = 560; // min output to account for boatmode
+int outHigh1 = 2200; // max output for mode 1
+int outHigh2 = 2550; // max output for mode 2
 int potMax = 1023; // potentiometer maximum value
 int switchPin = 11; // pin for initial on switch
 int selectorPin1 = 6; // mode 1 pin
